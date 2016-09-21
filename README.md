@@ -11,7 +11,9 @@ Here, replace "trusty" with your OS name and if 64 bit only then keep "amd64" li
 After that execute the following commands,
 
 cd ~/Downloads
+
 sudo dpkg -i wkhtmltox-0.12.1_linux-trusty-amd64.deb
+
 Now, check wkhtmltopdf version with below command,
 
 wkhtmltopdf -V
